@@ -46,6 +46,7 @@ function App() {
       <Router>
         <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} showAlert={showAlert} />
         <Alert alert={alert} />
+        <TextForm heading="Try TextUtils - word counter, character, remove extra spaces" mode={mode} showAlert={showAlert} />
         <div className="container">
           <Routes>
             <Route exact path="/" element={<TextForm heading="Try TextUtils - word counter, character, remove extra spaces" mode={mode} showAlert={showAlert} />} />
